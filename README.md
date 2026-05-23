@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-A brief description of the project.
+![AWS Access Key Rotation overview](./assets/AWS-Access-Key-Rotation-Overview.png)
 
 ## 🎯 Purpose of This Repository
 
