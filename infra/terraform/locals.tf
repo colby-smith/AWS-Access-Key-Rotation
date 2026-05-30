@@ -1,9 +1,10 @@
 locals {
+  name_prefix = "${var.project_name}-${var.environment_suffix}"
+
   common_tags = {
-    Project     = "IAM-Access-Key-Rotation"
-    Application = "Automatic-IAM-Access-Key-Rotation"
+    Project     = var.project_name
     Environment = var.environment
-    repository  = "AWS-Access-Key-Rotation"
-    ManagedBy   = "terraform"
+    ManagedBy   = "Terraform"
+    Repository  = "AWS-Access-Key-Rotation"
   }
 }
